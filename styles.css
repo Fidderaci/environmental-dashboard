@@ -1,0 +1,48 @@
+/* BEGIN Anes Fonda */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    flex: 1;
+    padding-bottom: 2rem;
+}
+
+.card {
+    border-radius: 0.75rem;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+#autocomplete-list {
+    border-radius: 0.4rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    background-color: #f0f0f0;
+}
+
+footer {
+    background-color: #212529;
+    color: white;
+    padding: 1rem 0;
+    margin-top: auto;
+}
+
+/* END Anes Fonda */
